@@ -1,0 +1,270 @@
+a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.font-11-600 {
+    font-family: $font_noto;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.6rem;
+    color: $black_color;
+}
+
+.font-13-600 {
+    font-family: $font_noto;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.0rem;
+    color: $black_color;
+}
+
+.font-16-600 {
+    font-family: $font_noto;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: $black_color;
+}
+
+.font-16-700 {
+    font-family: $font_noto;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: $black_color;
+}
+
+.font-18-400 {
+    font-family: $font_noto;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.6rem;
+    color: $black_color;
+}
+
+.font-18-600 {
+    font-family: $font_noto;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.6rem;
+    color: $black_color;
+}
+
+.font-18-700 {
+    font-family: $font_noto;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.2rem;
+    color: $black_color;
+}
+
+.font-19-400 {
+    font-family: $font_noto;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.4rem;
+    color: $black_color;
+}
+
+.font-20-500 {
+    font-family: $font_noto;
+    font-size: 2.0rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.6rem;
+    color: $black_color;
+}
+
+.font-20-800 {
+    font-family: $font_noto;
+    font-size: 2.0rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 3.6rem;
+    color: $black_color;
+}
+
+.font-23-500 {
+    font-family: $font_noto;
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4.0rem;
+    color: $black_color;
+}
+
+.font-23-800 {
+    font-family: $font_noto;
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 4.0rem;
+    color: $black_color;
+}
+
+.font-25-700 {
+    font-family: $font_noto;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.0rem;
+    color: $black_color;
+}
+
+.font-33-800 {
+    font-family: $font_noto;
+    font-size: 3.3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    color: $black_color;
+}
+
+.font-34-700 {
+    font-family: $font_noto;
+    font-size: 3.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    color: $black_color;
+}
+
+.font-34-800 {
+    font-family: $font_noto;
+    font-size: 3.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    color: $black_color;
+}
+
+.font-34-900 {
+    font-family: $font_noto;
+    font-size: 3.4rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    color: $black_color;
+}
+
+.font-56-800 {
+    font-family: $font_noto;
+    font-size: 5.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 6.4rem;
+    color: $black_color;
+}
+
+.btn-right {
+    display: flex;
+    column-gap: 1.5rem;
+    align-items: center;
+    line-height: 100%;
+    color: $blue_color;
+
+    &:before {
+        content: '';
+        display: block;
+        position: relative;
+        width: 1.0rem;
+        height: 2.1rem;
+        background-image: url(../img/right-trangle-symbol.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.company-list {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
+    column-gap: 5.2rem;
+    row-gap: 7.2rem;
+
+    .company-item {
+        position: relative;
+        width: 100%;
+        display: block;
+
+        img {
+            display: block;
+            position: relative;
+            width: 100%;
+            aspect-ratio: 220 / 135;
+            object-fit: cover;
+            margin-bottom: 1.6rem;
+        }
+
+        .company-title {
+            color: #000;
+        }
+    }
+}
+
+.news-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4.8rem;
+
+    .news-item {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        column-gap: 1.6rem;
+
+        .date {
+            display: block;
+            position: relative;
+            width: 10.4rem;
+            flex-shrink: 0;
+        }
+
+        .categories {
+            width: fit-content;
+            flex-shrink: 0;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 0.8rem;
+        }
+    }
+}
+
+.category {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 2.3rem;
+    padding: 0.4rem 2.2rem;
+    color: #FFF;
+    background: $black_color;
+    border-radius: 90rem;
+}
+
+.sub-mainview {
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-top: 11.6rem;
+    padding-bottom: 8.0rem;
+
+    .title {
+        line-height: 100%;
+    }
+}

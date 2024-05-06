@@ -1,0 +1,325 @@
+.top-page {
+    .mainview {
+        padding-top: 12.2rem;
+        padding-bottom: 15.4rem;
+        position: relative;
+        width: 100%;
+        display: block;
+        margin-bottom: 3.8rem;
+
+        .title {
+            line-height: 9.2rem;
+            margin-bottom: 5.6rem;
+        }
+
+        .main-desc {
+            display: block;
+            position: relative;
+            max-width: 42.6rem;
+            margin-bottom: 6.4rem;
+        }
+
+        .right-part {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            align-items: flex-end;
+            column-gap: 5.2rem;
+            padding: 6.2rem 5.6rem 6.2rem 10.5rem;
+            width: fit-content;
+            background: $orange_color;
+            border-radius: 90rem 0 0 90rem;
+
+            .desc-wrapper {
+                position: relative;
+                max-width: 28.8rem;
+
+                .desc {
+                    color: #FFF;
+
+                    &:first-child {
+                        margin-bottom: 2.2rem;
+                    }
+                }
+            }
+
+            .circle-img {
+                display: block;
+                position: relative;
+                width: 16.4rem;
+            }
+        }
+    }
+
+    .support-company {
+        position: relative;
+        width: 100%;
+        display: block;
+        margin-bottom: 6.8rem;
+
+        .section-title {
+            margin-bottom: 7.6rem;
+            line-height: 100%;
+        }
+    }
+
+    .news-section {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding-top: 5.2rem;
+        margin-bottom: 18.1rem;
+
+        .news-list {
+            position: relative;
+            width: fit-content;
+            max-width: 64%;
+            margin-left: auto;
+            margin-right: 0;
+            margin-bottom: 8.4rem;
+        }
+
+        .btn-black {
+            position: relative;
+            padding: 2.4rem 6.2rem;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .left-part {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: fit-content;
+            height: 45.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18.6rem 15.2rem 18.6rem 10.7rem;
+            background: red;
+            border-radius: 0 90rem 90rem 0;
+
+            .section-title {
+                color: #FFF;
+                line-height: 100%;
+            }
+        }
+    }
+}
+
+.aboutus-page {
+    position: relative;
+    width: 100%;
+    display: block;
+
+    .section1 {
+        position: relative;
+        width: 100%;
+        display: block;
+        margin-bottom: 7.8rem;
+
+        .desc {
+            margin-bottom: 6.4rem;
+        }
+
+        .aboutus-img {
+            width: 90%;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    .section2 {
+        position: relative;
+        width: 100%;
+        display: block;
+        margin-bottom: 7.8rem;
+
+        .section-title {
+            line-height: 100%;
+            width: fit-content;
+            margin-bottom: 7.2rem;
+        }
+
+        .title {
+            width: fit-content;
+            margin-bottom: 6.2rem;
+        }
+
+        .desc {
+            margin-bottom: 3.2rem;
+        }
+
+        .date {
+            width: fit-content;
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+
+    .section3 {
+        position: relative;
+        width: 100%;
+        display: block;
+        margin-bottom: 9.0rem;
+
+        .inner {
+            width: fit-content;
+            display: flex;
+            column-gap: 5.2rem;
+            margin-left: auto;
+            margin-right: 0;
+
+            .circle-img {
+                position: relative;
+                display: block;
+                width: 11.3rem;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    .company-overview {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-bottom: 10.8rem;
+
+        .section-title {
+            line-height: 100%;
+            margin-bottom: 8.1rem;
+        }
+
+        .overview-list {
+            display: flex;
+            flex-direction: column;
+            row-gap: 3.6rem;
+
+            .overview-item {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                position: relative;
+
+                .title {
+                    position: relative;
+                    width: 18rem;
+                    flex-shrink: 0;
+                }
+            }
+        }
+    }
+}
+
+.support-page {
+    position: relative;
+    width: 100%;
+    display: block;
+
+    .support-company-section {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-bottom: 13.6rem;
+    }
+}
+
+.single-support-page {
+    position: relative;
+    width: 100%;
+    display: block;
+
+    .company-profile {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding-top: 4.8rem;
+        margin-bottom: 8.4rem;
+
+        .company-thumb {
+            position: relative;
+            display: block;
+            width: 100%;
+            margin-bottom: 4.8rem;
+        }
+
+        .company-name {
+            margin-bottom: 4.0rem;
+            line-height: 100%;
+        }
+
+        .desc {
+            margin-bottom: 4.4rem;
+            color: #000;
+        }
+
+        .company-site {}
+    }
+
+    .ambassador-section {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin-bottom: 9.6rem;
+
+        .section-title {
+            line-height: 100%;
+            margin-bottom: 6.8rem;
+        }
+
+        .ambassador-list {
+            width: 100%;
+            position: relative;
+            display: block;
+            margin-bottom: 6.4rem;
+
+            .item {
+                width: 100%;
+                position: relative;
+                display: flex;
+                column-gap: 5.5rem;
+
+                &:not(:last-child) {
+                    margin-bottom: 5.6rem;
+                    padding-bottom: 5.6rem;
+                    border-bottom: 1px solid $black_color;
+                }
+
+                .left-part {
+                    display: block;
+                    position: relative;
+                    width: 20%;
+                    flex-shrink: 0;
+                    img {
+                        display: block;
+                        position: relative;
+                        width: 100%;
+                    }
+                }
+                .right-part {
+                    display: block;
+                    position: relative;
+                    .title {
+                        margin-bottom: 3.6rem;
+                        color: #000;
+                    }
+
+                    .desc {
+                        margin-bottom: 2.2rem;
+                        color: #000;
+                    }
+                    .position-name {
+                        margin-bottom: 3.6rem;
+                        color: #000;
+                    }
+                }
+            }
+        }
+
+        .btn-black {
+            padding: 2.4rem 5.8rem;
+            margin: 0 auto;
+        }
+    }
+}

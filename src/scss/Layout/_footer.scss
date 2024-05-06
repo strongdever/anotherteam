@@ -1,0 +1,163 @@
+.footer {
+    position: relative;
+    width: 100%;
+    height: 34.5rem;
+    background: $black_color;
+    padding-top: 6.1rem;
+
+    .container {
+        position: relative;
+    }
+
+    .left-part {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: fit-content;
+        height: fit-content;
+
+        .logo-wrapper {
+            position: relative;
+            width: 13.2rem;
+            margin-bottom: 4.2rem;
+
+            img {
+                display: block;
+                position: relative;
+                width: 100%;
+            }
+        }
+
+        .company-name {
+            margin-bottom: 2.1rem;
+            line-height: 100%;
+            color: #FFF;
+        }
+
+        .address {
+            width: fit-content;
+            color: #FFF;
+            line-height: 2.8rem;
+        }
+    }
+
+    .nav-menu {
+        position: relative;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        margin: 0 auto;
+        line-height: 1;
+
+        &>li {
+            position: relative;
+            padding: 0;
+
+            &:not(:first-child) {
+                margin-left: 6.0rem;
+            }
+
+            .menu-link {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: fit-content;
+                font-family: $font_noto;
+                font-weight: 700;
+                font-size: 1.6rem;
+                line-height: 2.8rem;
+                letter-spacing: 0.08em;
+                color: #FFF;
+                margin: 0;
+                white-space: nowrap;
+                text-decoration: none;
+                cursor: pointer;
+                z-index: 0;
+
+                img {
+                    display: inline-block;
+                    flex: 0 0 auto;
+                    width: 1.1rem;
+                    margin-left: 0.6rem;
+                }
+
+                svg {
+                    display: inline-block;
+                    width: initial;
+                    height: auto;
+                    margin-left: 0.6rem;
+                }
+
+                span {
+                    color: inherit;
+                    text-decoration: none;
+                }
+
+                // &::before {
+                //     content: "";
+                //     position: absolute;
+                //     left: 0;
+                //     bottom: 0;
+                //     display: block;
+                //     width: 100%;
+                //     height: 1px;
+                //     background: #FFFFFF;
+                //     transform-origin: center center;
+                //     transform: scale(0, 1);
+                //     transition: all 0.6s cubic-bezier(0.8, 0, 0.2, 1);
+                // }
+
+                &:hover,
+                &.active {
+                    // &::before {
+                    //     transform: scale(1, 1);
+                    // }
+                }
+            }
+        }
+    }
+
+    .right-part {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: fit-content;
+        height: fit-content;
+
+        .btn-contact {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 15rem;
+            height: 12.6rem;
+            line-height: 100%;
+            color: #FFF;
+            border: 1px solid #FFF;
+            margin-bottom: 3.6rem;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .btn-privacy {
+            color: #FFF;
+            width: fit-content;
+            margin-bottom: 2.2rem;
+            margin-left: auto;
+            margin-right: 0;
+            position: relative;
+            display: block;
+        }
+
+        .copyright {
+            color: #FFF;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+}
