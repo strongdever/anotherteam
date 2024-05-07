@@ -1,170 +1,77 @@
-.form-section {
-    padding-top: 5.6rem;
+.contactus-page {
+    position: relative;
+    width: 100%;
+    display: block;
+    padding-top: 12rem;
+    padding-bottom: 12.3rem;
 
-    form {
-        ul {
-            margin: 0 auto;
-            max-width: 56rem;
-
-        }
-
-        .bottom-desc {
-            width: fit-content;
-            margin: 4.0rem auto 0 auto;
-            text-align: left;
-            line-height: 2.8rem;
-        }
+    .page-title {
+        margin-bottom: 4.8rem;
     }
-}
 
+    .desc {
+        color: #000;
+        margin-bottom: 5.6rem;
+    }
 
-.main-form {
     .form-wrapper {
-        display: flex;
-        flex-direction: column;
-        row-gap: 2.4rem;
-    }
-
-    .vertical-wrapper {
+        max-width: 82.6rem;
+        position: relative;
         width: 100%;
         display: flex;
         flex-direction: column;
-        row-gap: 1.6rem;
-    }
+        row-gap: 4.4rem;
+        margin: 0 auto;
 
-    .horizontal-wrapper {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        column-gap: 1.6rem;
-    }
-
-    .input-privacy {
-        width: fit-content;
-        margin: 1rem auto 0 auto;
-
-        input {
-            margin-right: 0.8rem !important;
-        }
-
-        a {
-            text-decoration: underline;
-
-            &:hover {
-                opacity: 0.7;
-            }
-        }
-
-        label {
+        .input-wrapper {
+            position: relative;
+            width: 100%;
             display: flex;
-            align-items: center;
-        }
-    }
+            .input-label {
+                position: relative;
+                width: 20.6rem;
+                flex-shrink: 0;
+                color: #000;
+                line-height: 100%;
+            }
 
-    .checkbox-item {
-        -webkit-row-gap: 2.4rem;
-        -moz-row-gap: 2.4rem;
-        row-gap: 2.4rem;
-    }
+            .inputbox-wrapper {
+                position: relative;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                row-gap: 2.5rem;
+            }
 
-    textarea {
-        line-height: 2.4rem;
-    }
+            .input-text {
+                position: relative;
+                width: 100%;
+                height: 5.0rem;
+                padding: 0.4rem 1.5rem;
+                display: flex;
+                align-items: center;
+                background: #FFF;
+                color: #000;
+                border-radius: 0;
+                border: 1px solid $black_color;
 
-    .btn {
-        padding: 2.3rem 6.4rem;
-        height: 6.4rem;
-        width: fit-content;
-    }
-
-    .btn-black {
-        &::before {
-            background: #2175D6;
-        }
-
-        &:hover span {
-            color: #FFF;
-        }
-    }
-
-    .btns-wrapper {
-        margin: 4.8rem auto 0 auto;
-    }
-
-    &.main-confirm {
-
-        input,
-        textarea {
-            padding: 0;
-            border: unset;
-            font-weight: 400;
-        }
-
-        .name-wrapper {
-            .horizontal-wrapper {
-                justify-content: flex-start;
-
-                input {
-                    width: 3.4rem;
+                &.width1 {
+                    width: 19.5rem;
                 }
             }
+
+            .textarea {
+                padding: 0.4rem 1.5rem;
+                display: flex;
+                background: #FFF;
+                color: #000;
+                border-radius: 0;
+                border: 1px solid $black_color;
+            }
         }
     }
-
-    .required {
-        width: fit-content;
-        position: relative;
-        display: flex;
-        align-items: center;
-        column-gap: 0.8rem;
-
-        &::after {
-            width: fit-content;
-            content: '必須';
-            color: #F00;
-            line-height: 100%;
-        }
+    .btn-submit {
+        width: 20.1rem;
+        margin: 8.8rem auto 0 auto;
     }
-}
-
-input[type=checkbox] {
-    position: relative;
-    border-radius: 4px;
-    border: 1.5px solid #000;
-    background: none;
-    cursor: pointer;
-    line-height: 0;
-    outline: 0;
-    padding: 0 !important;
-    vertical-align: text-top;
-    height: 2rem !important;
-    width: 2rem !important;
-    -webkit-appearance: none;
-    opacity: .5;
-    margin: 0 0.8rem 0 0;
-}
-
-input[type=checkbox]:hover {
-    opacity: 1;
-}
-
-input[type=checkbox]:checked {
-    background-color: $green_color;
-    border: 1.5px solid #FFF;
-    opacity: 1;
-}
-
-input[type=checkbox]:checked:before {
-    content: '';
-    position: absolute;
-    right: calc(50% + 0rem);
-    top: 50%;
-    width: 0.6rem;
-    height: 1.3rem;
-    border: solid #FFF;
-    border-width: 0 2px 2px 0;
-    margin: -1px -1px 0 -1px;
-    transform: rotate(45deg) translate(-50%, -50%);
-    z-index: 2;
 }
